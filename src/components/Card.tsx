@@ -1,0 +1,29 @@
+import styled from "./Card.module.css"
+
+type Props = {
+  data: {
+    title: string;
+    description: string;
+    img: string;
+    color: string;
+  };
+};
+
+function Card({ data }: Props) {
+  return (
+    <div
+      className={`${styled.myShadow} w-[25rem] h-[250px] rounded-[8px] border-t-4 !p-[2.5rem] grid grid-rows-2`}
+      style={{ borderTopColor: data.color }}
+    >
+      <header>
+        <h1 className="text-gray-500 text-[1.25rem] font-[Poppins] font-semibold leading-[140%]">
+          {data.title}
+        </h1>
+        <p className="text-gray-400 text-[1.08rem]">{data.description}</p>
+      </header>
+      <img className="flex justify-self-end" src={data.img} alt={data.title} />
+    </div>
+  );
+}
+
+export default Card;
