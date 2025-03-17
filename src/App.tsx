@@ -35,11 +35,11 @@ function App() {
   ];
   return (
     <>
-      <header className="w-full md:max-w-10/12 !my-20 !mx-auto text-gray-400 relative text-center items-center font-[Poppins]">
+      <header className="w-full md:max-w-10/12 !my-20 !mx-auto text-[#6a7178] relative text-center items-center font-[Poppins]">
         <h1 className="text-[3rem] leading-[140%] tracking-[.25px] font-extralight">
           Reliable, efficent delivery
         </h1>
-        <h1 className="text-[3rem] text-gray-500 leading-[140%] tracking-[.25px] font-semibold">
+        <h1 className="text-[3rem] text-[#4d4f62] leading-[140%] tracking-[.25px] font-semibold">
           Powered by Technology
         </h1>
         <p className="w-full md:w-2/5 !mx-auto text-[1.25rem] leading-[140%] !my-[1rem]">

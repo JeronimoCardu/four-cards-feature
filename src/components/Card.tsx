@@ -16,10 +16,10 @@ function Card({ data }: Props) {
       style={{ borderTopColor: data.color }}
     >
       <header>
-        <h1 className="text-gray-500 text-[1.66rem] font-[Poppins] font-semibold leading-[140%]">
+        <h1 className="text-[#4d4f62] text-[1.66rem] font-[Poppins] font-semibold leading-[140%]">
           {data.title}
         </h1>
-        <p className="text-gray-400 text-[1.08rem]">{data.description}</p>
+        <p className="text-[#6a7178] text-[1.08rem]">{data.description}</p>
       </header>
       <img className="flex justify-self-end" src={data.img} alt={data.title} />
     </div>
