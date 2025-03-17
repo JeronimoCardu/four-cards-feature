@@ -35,28 +35,28 @@ function App() {
   ];
   return (
     <>
-      <header className="max-w-10/12 !mx-auto text-gray-500 relative text-center items-center font-[Poppins]">
+      <header className="w-full md:max-w-10/12 !my-12 !mx-auto text-gray-500 relative text-center items-center font-[Poppins]">
         <h1 className="text-[3rem] leading-[140%] tracking-[.25px] font-extralight">
           Reliable, efficent delivery
         </h1>
         <h1 className="text-[3rem] leading-[140%] tracking-[.25px] font-semibold">
           Powered by Technology
         </h1>
-        <p className="md:w-2/5 !mx-auto text-[1.25rem] leading-[140%] !my-[1rem]">
+        <p className="w-full md:w-2/5 !mx-auto text-[1.25rem] leading-[140%] !my-[1rem]">
           Our Artificial Intelligence powered tools use millons of project data
           points to ensure that your project is successful
         </p>
       </header>
-      <main className="w-full !my-20 flex items-center justify-center">
+      <main className="w-full  flex items-center justify-center">
         <section className="flex flex-wrap items-center justify-center gap-10">
-          <div className="w-full flex justify-center lg:w-auto">
+          <div className="w-full flex justify-center xl:w-auto">
             <Card key={myCards[0].title} data={myCards[0]} />
           </div>
-          <div className="flex justify-center lg:flex-col flex-wrap  gap-10">
+          <div className="flex justify-center xl:flex-col flex-wrap  gap-10">
             <Card key={myCards[1].title} data={myCards[1]} />
             <Card key={myCards[2].title} data={myCards[2]} />
           </div>
-          <div className="w-full flex justify-center lg:w-auto">
+          <div className="w-full flex justify-center xl:w-auto">
             <Card key={myCards[3].title} data={myCards[3]} />
           </div>
         </section>

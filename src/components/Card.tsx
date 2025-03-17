@@ -12,7 +12,7 @@ type Props = {
 function Card({ data }: Props) {
   return (
     <div
-      className={`${styled.myShadow} w-[25rem] h-[250px] rounded-[8px] border-t-4 !p-[2.5rem] grid grid-rows-2`}
+      className={`${styled.myShadow} w-[30rem] h-[22rem] rounded-[8px] border-t-4 !p-[2.5rem] grid grid-rows-2 bg-[#ffffff]`}
       style={{ borderTopColor: data.color }}
     >
       <header>
